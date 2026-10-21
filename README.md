@@ -60,3 +60,4 @@ The shared packages are ready for the later Fastify/Socket.IO server. This miles
 Unit tests cover seeded masks across styles/seeds, word caps, normalization, fuzzy matching, line alignment, deadlines, scoring, LRCLIB errors, caching and rate limits. Playwright uses original synthetic text to check five-round play, refresh recovery, reveal/results, local history, song search, retry behavior, expired sessions and API input validation on desktop and mobile. Live LRCLIB smoke checks are separate from deterministic CI tests.
 
 Lyrics provider docs: https://lrclib.net/docs.
+Creators: Shrirang Rathi, Bhuvan Gundela
