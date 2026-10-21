@@ -1,0 +1,18 @@
+{
+  "name": "@versetle/web",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.1.12",
+    "@versetle/shared": "workspace:*",
+    "@versetle/game-core": "workspace:*",
+    "@versetle/lyrics-provider": "workspace:*"
+  }
+}

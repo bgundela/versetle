@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "plugins": [{ "name": "next" }],
+    "paths": {
+      "@versetle/shared": ["../../packages/shared/src/index.ts"],
+      "@versetle/game-core": ["../../packages/game-core/src/index.ts"],
+      "@versetle/lyrics-provider": [
+        "../../packages/lyrics-provider/src/index.ts"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}

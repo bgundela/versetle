@@ -1,0 +1,24 @@
+{
+  "name": "versetle",
+  "private": true,
+  "packageManager": "pnpm@10.20.0",
+  "scripts": {
+    "dev": "corepack pnpm --filter @versetle/web dev",
+    "build": "corepack pnpm --filter @versetle/web build",
+    "start": "corepack pnpm --filter @versetle/web start",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "playwright test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "prettier": "^3.9.10",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
